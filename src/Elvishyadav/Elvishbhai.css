@@ -1,0 +1,463 @@
+.backgroundimage {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/CG-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    /* z-index: -1; */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(209, 206, 206, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.imgs {
+    background-image: url("https://systumm.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-14-at-7.51.42-PM-1-300x395.jpeg,");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.img1 {
+    background-image: url("https://systumm.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-14-at-7.38.15-PM-300x391.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img1:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-14-at-7.45.10-PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    border-radius: none;
+    width: 100%;
+}
+
+.img2 {
+    background-image: url("https://systumm.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-16-at-8.48.40-PM-300x375.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img2:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-16-at-8.40.32-PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img3 {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-27-at-7.35.44-PM-300x441.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img3:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-27-at-7.35.04-PM-1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img4 {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-27-at-6.56.51-PM-1-300x401.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img4:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-27-at-6.56.51-PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img5 {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-19-at-10.08.03-AM-2-300x375.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img5:hover {
+    background-image: url("	https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-19-at-10.08.03-AM-1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img6 {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-05-at-8.39.44-PM-1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img6:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-05-at-8.39.44-PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img7 {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-23-at-6.01.50-PM-300x375.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img7:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-05-at-8.39.44-PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img8 {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-07-at-4.34.44-PM-300x420.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img8:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-05-at-10.21.06-PM-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img9 {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-05-at-10.42.20-PM-300x375.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img9:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-05-at-10.42.21-PM-3.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.img10 {
+    /* background-image: url("	https://systumm.com/wp-content/uploads/2023/11/Wha…App-Image-2023-11-03-at-2.39.07-PM-3-300x375.jpeg"); */
+    background-image: url("	https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-06-at-5.22.15-PM.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img10:hover {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-03-at-2.39.07-PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img11 {
+    /* background-image: url("	https://systumm.com/wp-content/uploads/2023/11/Wha…pp-Image-2023-11-03-at-12.10.14-AM-1-300x375.jpeg"); */
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-03-at-12.10.07-AM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img11:hover {
+    /* background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-03-at-12.10.07-AM.jpeg"); */
+    /* background-image: url("	https://systumm.com/wp-content/uploads/2023/11/Wha…pp-Image-2023-11-03-at-12.10.14-AM-1-300x375.jpeg"); */
+    background-image: url("	https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-06-at-5.22.15-PM.jpeg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img12 {
+    background-image: url("https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-06-at-5.07.17-PM-300x375.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img12:hover {
+    background-image: url("	https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-06-at-5.06.35-PM.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+
+}
+
+.img13 {
+    background-image: url("	https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-06-at-5.52.41-PM-300x375.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img13:hover {
+    background-image: url("	https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-06-at-5.52.26-PM.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+
+}
+
+.img14 {
+    background-image: url("	https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-06-at-5.22.15-PM.jpeg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    transition: 1s;
+    transform: 1.5;
+}
+
+.img14:hover {
+    background-image: url("	https://systumm.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-06-at-5.22.15-PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    transition: s;
+    transform: 1.1;
+}
+
+
+
+.backgroundtext {
+    color: #000cff;
+    background: linear-gradient(to bottom right, #ff0745, #000cff);
+    display: inline-block;
+    text-align: center;
+    /* margin-right: 20%; */
+    margin-left: 30%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h1 {
+    font-size: 50px;
+
+}
+
+.position {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.footerbackground {
+    background-color: rgb(216, 215, 255);
+    height: 50vh;
+}
+
+
+
+.hover-content .paragraph {
+    display: block;
+}
+
+.hover-content:hover .paragraph {
+    display: none;
+}
+
+.hover-content:hover .extra-content {
+    display: block;
+}
+
+.extra-content {
+    display: none;
+}
+
+.abc:hover {
+    background-color: #ffffff;
+    padding: 4%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.abc {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+
+}
+
+i {
+    color: #000cff;
+}
+
+.backgrountshirt {
+    background-color: rgb(212, 202, 252);
+    height: 50vh;
+    width: 100%;
+
+}
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .signup-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
